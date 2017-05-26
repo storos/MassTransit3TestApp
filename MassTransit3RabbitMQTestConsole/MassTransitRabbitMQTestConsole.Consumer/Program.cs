@@ -33,6 +33,8 @@ namespace MassTransitRabbitMQTestConsole.Consumer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Starting...");
+
             var bus = Bus.Factory.CreateUsingRabbitMq(x =>
             {
                 var host = x.Host(new Uri("rabbitmq://localhost"), h =>
