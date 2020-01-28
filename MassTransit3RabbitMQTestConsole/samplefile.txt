@@ -1,9 +1,0 @@
-test 1234
-1
-2
-3test 1
-testbranch1
-testbranch2
-1
-geliştirme 11441
-11 45 gelistirmesi
